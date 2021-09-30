@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier new";
+}
+
+div h2 {
+  width: 130px;
+  background-color: darksalmon;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+  float: right;
+  margin-bottom: 10px;
+}
+
+div div p {
+  clear: both;
+  text-indent: 20px;
+  padding: 0 10px 0 10px;
+}
+
+div div div {
+  background-color: rgb(230, 219, 219);
+}
+
+#_title {
+  font-size:25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.row {
+  clear: both;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .col-lg {
+    width: calc(33.33% - 20px);
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+  }  
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md {
+    width: calc(50% -  20px);
+    float:left;
+    border: 1px solid black;
+    margin: 10px;
+  }
+  .col-md-third_col {
+    width: calc(100% - 20px);
+    float:left;
+    border: 1px solid black;
+    margin: 10px;
+  }
+}
+
+/* Cellphone */
+@media (max-width: 767px) {
+  .col-sm {
+    width: calc(100% - 20px);
+    float:left;
+    border: 1px solid black;
+    margin: 10px;
+  }
+}
