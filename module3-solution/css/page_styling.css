@@ -17,12 +17,13 @@ body {
 .menu_title {
   font-size: 1.5em;
   text-align: center;
+  text-indent: 0;
 }
 
 .menu-content {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px;
   background-color: #3E722B;
   font-size: 1em;
   text-indent: 20px;
